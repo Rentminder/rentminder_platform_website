@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+    "firsttris.vscode-jest-runner",
+    "jounqin.vscode-mdx",
+    "dbaeumer.vscode-eslint",
+    "mjmlio.vscode-mjml",
+    "bradlc.vscode-tailwindcss",
+    "phoenixframework.phoenix"
+  ]
+}
