@@ -4,7 +4,6 @@ import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
 
 import LogoImage from '../../images/logo.png';
-console.log(LogoImage);
 
 const Header = () => (
   <header className="sticky top-0 bg-white">

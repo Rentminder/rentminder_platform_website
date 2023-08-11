@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
-
+export { Head } from '../components/layout/Head';
 const NotFound = () => (
   <Layout>
     <h1>Not Found</h1>

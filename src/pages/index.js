@@ -10,6 +10,8 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 
+export { Head } from '../components/layout/Head';
+
 const Index = () => {
   useEffect(() => {
     window.scrollTo(0, 0);

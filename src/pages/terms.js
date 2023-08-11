@@ -9,7 +9,7 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
-
+export { Head } from '../components/layout/Head';
 const Heading = ({ children }) => {
   return <div class="text-2xl font-bold">{children}</div>;
 };
