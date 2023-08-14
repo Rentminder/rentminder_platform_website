@@ -5,7 +5,10 @@ const Footer = () => (
     <div className="flex -mx-3">
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">About Us</h2>
-        <p className="mt-5">RentMinder - Made for data and finance.</p>
+        <p className="mt-5 max-w-xs">
+          RentMinder is made for data and finance in a modern real estate and digital world. We
+          believe in APIs and automation to let people be more efficient.
+        </p>
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Important Links</h2>

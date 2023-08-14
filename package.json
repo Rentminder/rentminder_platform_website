@@ -10,7 +10,7 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d main"
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^4.0.0",

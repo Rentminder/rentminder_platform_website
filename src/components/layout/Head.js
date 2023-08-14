@@ -34,6 +34,7 @@ export function Head() {
         name="twitter:image:alt"
         content="A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters."
       />
+      <link href="https://fonts.cdnfonts.com/css/whitney-2" rel="stylesheet"></link>
     </>
   );
 }

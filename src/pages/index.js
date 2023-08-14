@@ -17,64 +17,70 @@ const Index = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <Layout>
-      <section className="pt-20 md:pt-40">
-        <div className="container mx-auto px-8 lg:space-x-4 lg:flex lg:items-center">
-          <div className="text-center lg:text-left lg:w-1/2">
-            <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-              Minds the rent.
-              <br />
-              Frees your mind.
-            </h1>
-            <p className="text-xl lg:text-2xl mt-6 font-light">
-              RentMinder connects with your financial software to monitor, analyze, and report.
-            </p>
-          </div>
-          <div className="lg:w-1/2">
-            <div>
-              <HeroImage />
+    <>
+      <Layout>
+        <section className="pt-20 md:pt-40">
+          <div className="container mx-auto px-8 lg:space-x-4 lg:flex lg:items-center">
+            <div className="text-center lg:text-left lg:w-1/2">
+              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none font-whitney">
+                Minds the rent.
+                <br />
+                Frees your mind.
+              </h1>
+              <p className="text-xl lg:text-2xl mt-6 font-light">
+                RentMinder connects with your financial and property management software to monitor,
+                analyze, and report.
+                <br />
+                We bring AI to real estate.
+              </p>
             </div>
-            <div class="text-xs text-center text-gray-400 p-2">
-              Our application is heavily under development. Join our alpha.
+            <div className="lg:w-1/2">
+              <div>
+                <HeroImage />
+              </div>
+              <div class="text-xs text-center text-gray-400 p-2">
+                Experience the true power of the RentMiner platform.
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      {/* <section id="features" className="py-20 lg:pb-40 lg:pt-48">
-      <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
-        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
+        </section>
+        <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+          <div className="container mx-auto text-center">
+            <h2 className="text-3xl lg:text-5xl font-semibold font-whitney">
+              The Power of AI For Your Real Estate
+            </h2>
+            <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
+              <div className="flex-1 px-3">
+                <Card className="mb-8">
+                  <p className="font-semibold text-xl">Finances</p>
+                  <p className="mt-4">
+                    Connect Quickbooks&reg;, Appfolio&reg; and more to monitor and act on your
+                    finances. Print checks and automate transactions between multiple accounts.{' '}
+                  </p>
+                </Card>
+              </div>
+              <div className="flex-1 px-3">
+                <Card className="mb-8">
+                  <p className="font-semibold text-xl">Reports</p>
+                  <p className="mt-4">
+                    Gather insights using Artificial Intelligence to generate automated reports.
+                    Generate PDFs from your data and schedule automated emails to your team.
+                  </p>
+                </Card>
+              </div>
+              <div className="flex-1 px-3">
+                <Card className="mb-8">
+                  <p className="font-semibold text-xl">Automate</p>
+                  <p className="mt-4">
+                    Continuously monitor your organization's data and stay ahead with custom
+                    metrics, audits, and safety checks. Get notified when things require attention.
+                  </p>
+                </Card>
+              </div>
+            </div>
           </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
-          </div>
-        </div>
-      </div>
-    </section> */}
-      {/* <SplitSection
+        </section>
+        {/* <SplitSection
       id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
@@ -116,7 +122,7 @@ const Index = () => {
       }
       secondarySlot={<SvgCharts />}
     /> */}
-      {/* <section id="stats" className="py-20 lg:pt-32">
+        {/* <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
@@ -144,15 +150,24 @@ const Index = () => {
         </div>
       </div>
     </section> */}
-      <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-        <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
-        <p className="mt-8">
-          <a href="mailto:hello@rentminder.com">
-            <Button size="xl">Contact Us to Get Started</Button>
-          </a>
-        </p>
-      </section>
-    </Layout>
+        <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+          <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
+          <p className="mt-8">
+            <a href="mailto:hello@rentminder.com">
+              <Button size="xl">Contact Us to Get Started</Button>
+            </a>
+          </p>
+        </section>
+      </Layout>
+      <footer className="container mx-auto px-3 mb-8 text-sm text-gray-800">
+        <div className="flex -mx-3">
+          <div className="flex-1 px-3">
+            <div>QuickBooks&reg; is a registered trademark of Intuit, Inc.</div>
+            <div>AppFolio&reg; is a registered trademark of AppFolio, Inc.</div>
+          </div>
+        </div>
+      </footer>
+    </>
   );
 };
 
